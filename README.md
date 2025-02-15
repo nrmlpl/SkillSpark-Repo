@@ -74,7 +74,7 @@ POST /enroll - Enroll in a course
 
 ## 📷 Screenshots
 
-
+[![Screenshot](https://github.com/nrmlpl/SkillSpark-Repo/issues/1)]
 ### 🚀 Deployment
 
 **Backend:** Hosted on Render
