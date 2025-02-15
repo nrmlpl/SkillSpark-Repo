@@ -63,7 +63,7 @@ POST /enroll - Enroll in a course
 
 📷 Screenshots
 
-Add screenshots here (e.g., dashboard, course page, live sessions)
+[![Screenshot]([https://github.com/nrmlpl/Varta-App/issues/1](https://github.com/nrmlpl/SkillSpark-Repo/issues/1))]
 
 🚀 Deployment
 
