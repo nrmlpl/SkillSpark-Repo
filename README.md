@@ -1,25 +1,28 @@
+
 SkillSpark (E-learning Platform)
 
 📌 Overview
-
 SkillSpark is a MERN stack e-learning platform that offers online courses, fosters a learning community, and partners with top universities to drive innovation in education.
 
 🎯 Features:
-
 ✅ User authentication (JWT-based)✅ Course browsing and enrollment✅ Interactive video lessons✅ Certificate generation✅ Auto-graded assessments✅ Live sessions and community forums✅ Personalized learning dashboard✅ Industry-aligned curriculum✅ Responsive UI with Tailwind CSS✅ Secure password hashing (bcrypt.js)
 
 🛠️ Tech Stack
 
-Frontend: React, Tailwind CSS, AxiosBackend: Node.js, Express.js, MongoDB, Mongoose, JWT, bcrypt.jsDeployment: Vercel (Frontend), Render (Backend)
+Frontend: React, Tailwind CSS, Axios
+
+Backend: Node.js, Express.js, MongoDB, Mongoose, JWT, bcrypt.js
+
+Deployment: Vercel (Frontend), Render (Backend)
 
 🚀 Getting Started
 
-1️⃣ Clone the Repository
+1️⃣ Clone the Repository:
 
 git clone https://github.com/your-username/SkillSpark.git
 cd SkillSpark
 
-2️⃣ Setup the Backend (Server)
+2️⃣ Setup the Backend (Server):
 
 Navigate to server folder and install dependencies:
 
@@ -35,9 +38,9 @@ Start the backend server:
 
 npm start
 
-3️⃣ Setup the Frontend (Client)
+3️⃣ Setup the Frontend (Client):
 
-Navigate to the root folder and install dependencies:
+Install dependencies:
 
 npm install
 
@@ -63,7 +66,6 @@ POST /enroll - Enroll in a course
 
 📷 Screenshots
 
-[![Screenshot]([https://github.com/nrmlpl/Varta-App/issues/1](https://github.com/nrmlpl/SkillSpark-Repo/issues/1))]
 
 🚀 Deployment
 
@@ -71,11 +73,10 @@ Backend: Hosted on Render
 
 Frontend: Hosted on Vercel
 
-🛠️ Future Enhancements
-
+🛠️ Future Enhancements:
 🔹 AI-based course recommendations🔹 Video conferencing for live classes🔹 End-to-end encryption for chat forums
 
-🤝 Contributing
+🤝 Contributing:
 
 Fork the repository
 
