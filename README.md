@@ -1,28 +1,99 @@
+SkillSpark (E-learning Platform)
 
-## Usage
+📌 Overview
 
-This starter pack includes a basic setup for using **Tailwind CSS with React**. To start building your own components and styles, follow these steps:
+SkillSpark is a MERN stack e-learning platform that offers online courses, fosters a learning community, and partners with top universities to drive innovation in education.
 
-1. Clone the repository to your local machine.
-    ```sh
-    git clone https://github.com/thepranaygupta/react-tailwind-css-starter-pack.git
-    ```
+🎯 Features:
 
-1. Install the required packages.
-    ```sh
-    cd react-tailwind-css-starter-pack
-    npm install
-    ```
+✅ User authentication (JWT-based)✅ Course browsing and enrollment✅ Interactive video lessons✅ Certificate generation✅ Auto-graded assessments✅ Live sessions and community forums✅ Personalized learning dashboard✅ Industry-aligned curriculum✅ Responsive UI with Tailwind CSS✅ Secure password hashing (bcrypt.js)
 
-1. Start the development server.
-    ```sh
-    npm start
-    ```
-1. Open the project in your browser at [`http://localhost:3000`](http://localhost:3000) to view your project.
-1. Create your React components and add your styles using Tailwind classes. You can also create new CSS files and import them into your components.
+🛠️ Tech Stack
 
-The project is set up to use `postcss-cli` to process your CSS files. You can add your own `tailwind.config.js` file to customize your Tailwind setup.
+Frontend: React, Tailwind CSS, AxiosBackend: Node.js, Express.js, MongoDB, Mongoose, JWT, bcrypt.jsDeployment: Vercel (Frontend), Render (Backend)
 
-## Contributing
+🚀 Getting Started
 
-Contributions are welcome! If you have any suggestions or find any issues, please feel free to open an issue or a pull request.
+1️⃣ Clone the Repository
+
+git clone https://github.com/your-username/SkillSpark.git
+cd SkillSpark
+
+2️⃣ Setup the Backend (Server)
+
+Navigate to server folder and install dependencies:
+
+cd server
+npm install
+
+Configure environment variables (.env file):
+
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret_key
+
+Start the backend server:
+
+npm start
+
+3️⃣ Setup the Frontend (Client)
+
+Navigate to the root folder and install dependencies:
+
+npm install
+
+Start the frontend server:
+
+npm start
+
+Access the app at: http://localhost:3000
+
+🌐 API Endpoints
+
+Auth Routes (/api/auth):
+
+POST /register - Register a user
+
+POST /login - Authenticate user & return token
+
+Course Routes (/api/courses):
+
+GET / - Get all courses
+
+POST /enroll - Enroll in a course
+
+📷 Screenshots
+
+Add screenshots here (e.g., dashboard, course page, live sessions)
+
+🚀 Deployment
+
+Backend: Hosted on Render
+
+Frontend: Hosted on Vercel
+
+🛠️ Future Enhancements
+
+🔹 AI-based course recommendations🔹 Video conferencing for live classes🔹 End-to-end encryption for chat forums
+
+🤝 Contributing
+
+Fork the repository
+
+Create a new branch (feature/your-feature)
+
+Commit changes (git commit -m 'Add feature')
+
+Push to the branch (git push origin feature/your-feature)
+
+Open a Pull Request
+
+🙌 Acknowledgments
+
+MERN Stack - MongoDB, Express, React, Node.js
+
+JWT & bcrypt.js - Secure authentication
+
+Tailwind CSS - Frontend styling
+
+Happy Learning with SkillSpark! 🚀
+
